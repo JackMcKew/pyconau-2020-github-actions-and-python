@@ -6,7 +6,11 @@ PyconAU 2020 - Jack McKew
 * Why should you use them?
 * How can we make them?
 
-> This entire talk is open source & built with GitHub Actions at: <https://github.com/JackMcKew/pyconau-2020-github-actions-and-python>
+---
+
+## Quick Note
+
+This talk is open source & built with GitHub Actions at: <https://github.com/JackMcKew/pyconau-2020-github-actions-and-python>
 
 ---
 
@@ -28,7 +32,7 @@ You can reach me on:
 
 GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD).
 
-> But what is Ci/CD? Ci/CD allows us to automate building, testing and deployment of applications.
+> CI/CD allows us to automate building, testing and deployment of applications.
 
 ---
 
@@ -63,7 +67,9 @@ I'm the creator & maintainer of open source packages such as:
 * Numerous GitHub Actions:
     * [pyinstaller-action-windows](https://github.com/JackMcKew/pyinstaller-action-windows)
     * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
-    * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check))
+    * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
+
+---
 
 ### What I use GitHub Actions for
 
