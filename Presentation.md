@@ -1,12 +1,79 @@
-# Title
+# GitHub Actions & Python
 
-* Point 1
-* Point 2
+PyconAU 2020 - Jack McKew
+
+* What are GitHub Actions?
+* Why should you use them?
+* How can we make them?
+
+> This entire talk is open source & built with GitHub Actions at: <https://github.com/JackMcKew/pyconau-2020-github-actions-and-python>
 
 ---
 
-## Second slide
+## Who am I
 
-> Best quote ever.
+I'm Jack McKew, I absolutely love solving problems, especially with Python!
 
-Note: speaker notes FTW!
+I write a weekly blog on software, technology and more over at [jackmckew.dev](https://jackmckew.dev/).
+
+You can reach me on:
+
+* Twitter: [@jac_mcq](https://twitter.com/jac_mcq)
+* LinkedIn: [jack-mckew](https://www.linkedin.com/in/jack-mckew/)
+* GitHub: [@JackMcKew](https://github.com/JackMcKew)
+
+---
+
+## What are GitHub Actions
+
+GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD).
+
+> But what is Ci/CD? Ci/CD allows us to automate building, testing and deployment of applications.
+
+---
+
+## GitHub Action Marketplace
+
+Find pre-made blocks of CI/CD to plug & play!
+
+> <https://github.com/marketplace?type=actions>
+
+---
+
+## Why should you use them
+
+If you can automate something, you definitely should.
+
+---
+
+## How can we make them
+
+Currently GitHub actions support Docker & Javascript.
+
+> I will be going through Docker actions primarily in this talk.
+
+---
+
+## Projects I work on
+
+I'm the creator & maintainer of open source packages such as:
+
+* [Pandas_Alive](https://github.com/JackMcKew/pandas_alive).
+* [awesome-python-bytes](https://github.com/JackMcKew/awesome-python-bytes).
+* Numerous GitHub Actions:
+    * [pyinstaller-action-windows](https://github.com/JackMcKew/pyinstaller-action-windows)
+    * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
+    * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check))
+
+### What I use GitHub Actions for
+
+This talk!!
+
+And also...
+
+* Building/managing documentation
+* Syncing examples with working code
+* Deploying documentation sites
+* Checking all external links are valid in documentation
+* Checking docstring coverage (with [interrogate](https://pypi.org/project/interrogate/))
+* Packaging Python code as an executable
