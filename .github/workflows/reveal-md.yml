@@ -13,12 +13,6 @@ jobs:
         run: |
           sudo npm install -g reveal-md --unsafe-perm
           sudo reveal-md Presentation.md --static _site --highlight-theme github
-          sudo reveal-md Presentation.md --print PyconAU_2020_GitHub_Actions_and_Python.pdf --print-size A4 --highlight-theme github
-
-      - uses: actions/upload-artifact@v2
-        with:
-          name: PyconAU_2020_GitHub_Actions_and_Python
-          path: src/dist/windows # or path/to/artifact
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
