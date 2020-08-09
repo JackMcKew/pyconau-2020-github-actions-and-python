@@ -1,4 +1,4 @@
-<title>GitHub Actions & Python</title>
+<!-- .element: title="GitHub Actions & Python" -->
 
 # GitHub Actions & Python
 
