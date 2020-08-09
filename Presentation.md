@@ -114,8 +114,6 @@ jobs:
 
 ---
 
-### Let's break it down
-
 ``` yaml
 name: Build & Publish Presentation with reveal-md
 
