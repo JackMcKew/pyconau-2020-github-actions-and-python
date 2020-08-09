@@ -73,12 +73,40 @@ This talk!!
 
 And also...
 
+* Testing!
 * Building/managing documentation
 * Syncing examples with working code
-* Deploying documentation sites
 * Checking all external links are valid in documentation
 * Checking docstring coverage (with [interrogate](https://pypi.org/project/interrogate/))
 * Packaging Python code as an executable
+
+## But how do I set them up
+
+All's needed is a `my-action.yml` file in `.github/workflows`
+
+``` yaml
+name: Build & Publish Presentation with reveal-md
+
+on: push
+
+jobs:
+  release:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies & Build Presentation
+        run: |
+          sudo npm install -g reveal-md --unsafe-perm
+          sudo reveal-md Presentation.md --static _site --highlight-theme github
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+```
 </script></section></div>
     </div>
 
