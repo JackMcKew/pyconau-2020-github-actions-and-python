@@ -82,6 +82,8 @@ And also...
 * Checking docstring coverage (with [interrogate](https://pypi.org/project/interrogate/))
 * Packaging Python code as an executable
 
+---
+
 ## But how do I set them up
 
 All's needed is a `my-action.yml` file in `.github/workflows`
@@ -109,3 +111,13 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: _site # The folder the action should deploy.
 ```
+
+---
+
+``` yaml
+name: Build & Publish Presentation with reveal-md
+
+on: push
+```
+
+---
