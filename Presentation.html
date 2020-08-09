@@ -79,7 +79,7 @@ And also...
 * Checking all external links are valid in documentation
 * Checking docstring coverage (with [interrogate](https://pypi.org/project/interrogate/))
 * Packaging Python code as an executable
-
+</script></section><section  data-markdown><script type="text/template">
 ## But how do I set them up
 
 All's needed is a `my-action.yml` file in `.github/workflows`
@@ -107,7 +107,13 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: _site # The folder the action should deploy.
 ```
-</script></section></div>
+</script></section><section  data-markdown><script type="text/template">
+``` yaml
+name: Build & Publish Presentation with reveal-md
+
+on: push
+```
+</script></section><section  data-markdown><script type="text/template"></script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
