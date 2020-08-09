@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies & Build Presentation
         run: |
           sudo npm install -g reveal-md --unsafe-perm
-          sudo reveal-md Presentation.md --static _site --highlight-theme github
+          sudo reveal-md Presentation.md --static _site --highlight-theme dark
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
