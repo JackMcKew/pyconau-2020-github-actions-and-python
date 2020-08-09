@@ -55,8 +55,9 @@ Find pre-made blocks of CI/CD to plug & play!
 
 > <https://github.com/marketplace?type=actions>
 
+---
+
 ![GitHub Marketplace](img/github-marketplace.png)
-<!-- .element: class="fragment" -->
 
 ---
 
