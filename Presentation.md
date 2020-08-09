@@ -51,6 +51,7 @@ Find pre-made blocks of CI/CD to plug & play!
 
 If you can automate something, you definitely should.
 
+<iframe src='https://gfycat.com/ifr/AchingOptimisticAlabamamapturtle' frameborder='0' scrolling='no' width=100% height='500'></iframe><p> <a href="https://gfycat.com/achingoptimisticalabamamapturtle">via Gfycat</a></p>
 ---
 
 ## How can we make them
