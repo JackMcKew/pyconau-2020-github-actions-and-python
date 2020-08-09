@@ -36,6 +36,7 @@ GitHub Actions are free-to-use, plug & play blocks of continuous integration / c
 
 ---
 
+<!-- .slide: data-background="./img/github-marketplace.png" -->
 ## GitHub Action Marketplace
 
 Find pre-made blocks of CI/CD to plug & play!
