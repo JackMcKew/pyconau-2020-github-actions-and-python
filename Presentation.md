@@ -1,3 +1,5 @@
+<title>GitHub Actions & Python</title>
+
 # GitHub Actions & Python
 
 PyconAU 2020 - Jack McKew
