@@ -3,8 +3,8 @@
 PyconAU 2020 - Jack McKew
 
 * What are GitHub Actions?
-* Why should you use them?
-* How can we make them?
+* Why use them?
+* How to set them up?
 
 ---
 
@@ -25,6 +25,19 @@ You can reach me on:
 * Twitter: [@jac_mcq](https://twitter.com/jac_mcq)
 * LinkedIn: [jack-mckew](https://www.linkedin.com/in/jack-mckew/)
 * GitHub: [@JackMcKew](https://github.com/JackMcKew)
+
+---
+
+## Projects I work on
+
+I'm the creator & maintainer of open source packages such as:
+
+* [Pandas_Alive](https://github.com/JackMcKew/pandas_alive).
+* [awesome-python-bytes](https://github.com/JackMcKew/awesome-python-bytes).
+* Numerous GitHub Actions:
+    * [pyinstaller-action-windows](https://github.com/JackMcKew/pyinstaller-action-windows)
+    * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
+    * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
 
 ---
 
@@ -52,26 +65,6 @@ Find pre-made blocks of CI/CD to plug & play!
 If you can automate something, you definitely should.
 
 <iframe src='https://gfycat.com/ifr/AchingOptimisticAlabamamapturtle' frameborder='0' scrolling='no' width=100% height='500'></iframe><p> <a href="https://gfycat.com/achingoptimisticalabamamapturtle">via Gfycat</a></p>
----
-
-## How can we make them
-
-Currently GitHub actions support Docker & Javascript.
-
-> I will be going through Docker actions primarily in this talk.
-
----
-
-## Projects I work on
-
-I'm the creator & maintainer of open source packages such as:
-
-* [Pandas_Alive](https://github.com/JackMcKew/pandas_alive).
-* [awesome-python-bytes](https://github.com/JackMcKew/awesome-python-bytes).
-* Numerous GitHub Actions:
-    * [pyinstaller-action-windows](https://github.com/JackMcKew/pyinstaller-action-windows)
-    * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
-    * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
 
 ---
 
