@@ -42,7 +42,7 @@ Find pre-made blocks of CI/CD to plug & play!
 
 > <https://github.com/marketplace?type=actions>
 
-<iframe frameborder="0" width="100%" height="500pt" src="https://caniuse.com/cors/embed/description&links"></iframe>
+<iframe frameborder="0" width="100%" height="500pt" src="https://github.com/marketplace?type=actions"></iframe>
 <!-- .element: class="fragment" -->
 
 ---
