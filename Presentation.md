@@ -121,7 +121,7 @@ name: Build & Publish Presentation with reveal-md
 
 on: push
 ```
-<!-- .element: class="fragment" data-fragment-index="1" -->
+<!-- .element: class="fragment fade-in-then-out" data-fragment-index="1" -->
 
 ``` yaml
 jobs:
@@ -131,7 +131,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 ```
-<!-- .element: class="fragment" data-fragment-index="2" -->
+<!-- .element: class="fragment fade-in-then-out" data-fragment-index="2" -->
 
 ``` yaml
       - name: Install dependencies & Build Presentation
@@ -139,7 +139,7 @@ jobs:
           sudo npm install -g reveal-md --unsafe-perm
           sudo reveal-md Presentation.md --static _site --highlight-theme github
 ```
-<!-- .element: class="fragment" data-fragment-index="3" -->
+<!-- .element: class="fragment fade-in-then-out" data-fragment-index="3" -->
 
 ``` yaml
       - name: Deploy 🚀
@@ -149,6 +149,6 @@ jobs:
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: _site # The folder the action should deploy.
 ```
-<!-- .element: class="fragment" data-fragment-index="4" -->
+<!-- .element: class="fragment fade-in-then-out" data-fragment-index="4" -->
 
 ---
