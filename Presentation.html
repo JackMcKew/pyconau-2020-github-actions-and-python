@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><title>GitHub Actions & Python</title>
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .element: title="GitHub Actions & Python" -->
 
 # GitHub Actions & Python
 
@@ -21,11 +21,15 @@ PyconAU 2020 - Jack McKew
 * What are GitHub Actions?
 * Why use them?
 * How to set them up?
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Rough overview on what is covered in the talk, mention we&#39;ll go through a real world example</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ## Quick Note
 
 This talk is open source & built with GitHub Actions at: <https://github.com/JackMcKew/pyconau-2020-github-actions-and-python>
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Mention that the presentation is live on the web and hosted on github pages</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ## Who am I
 
 I'm Jack McKew, I absolutely love solving problems, especially with Python! 🐍
@@ -37,7 +41,9 @@ You can reach me on:
 * Twitter: [@jac_mcq](https://twitter.com/jac_mcq)
 * LinkedIn: [jack-mckew](https://www.linkedin.com/in/jack-mckew/)
 * GitHub: [@JackMcKew](https://github.com/JackMcKew)
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Reiterate that the talk is completely open source and links are all live</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ## Projects I work on
 
 I'm the creator & maintainer of open source packages such as:
@@ -48,19 +54,31 @@ I'm the creator & maintainer of open source packages such as:
     * [pyinstaller-action-windows](https://github.com/JackMcKew/pyinstaller-action-windows)
     * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
     * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ## What are GitHub Actions
 
 GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD).
 
 > CI/CD allows us to automate building, testing and deployment of applications.
 </script></section><section  data-markdown><script type="text/template">
+## But what is CI/CD?
+
+CI = Automated Build, Package, Test
+
+CD = Automated Delivery
+
+<aside class="notes"><p>We want to run these things every time we push to our Github Repo</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ## GitHub Action Marketplace
 
 Find pre-made blocks of CI/CD to plug & play!
 
 > <https://github.com/marketplace?type=actions>
-</script></section><section  data-markdown><script type="text/template">
+
+<aside class="notes"><p>These are thousands of pre-made actions ready to use</p>
+</aside></script></section><section  data-markdown><script type="text/template">
 ![GitHub Marketplace](img/github-marketplace.png)
 </script></section><section  data-markdown><script type="text/template">
 ## Why should you use them
