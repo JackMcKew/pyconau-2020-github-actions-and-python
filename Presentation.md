@@ -8,11 +8,15 @@ PyconAU 2020 - Jack McKew
 * Why use them?
 * How to set them up?
 
+Note: Rough overview on what is covered in the talk, mention we'll go through a real world example
+
 ---
 
 ## Quick Note
 
 This talk is open source & built with GitHub Actions at: <https://github.com/JackMcKew/pyconau-2020-github-actions-and-python>
+
+Note: Mention that the presentation is live on the web and hosted on github pages
 
 ---
 
@@ -28,6 +32,8 @@ You can reach me on:
 * LinkedIn: [jack-mckew](https://www.linkedin.com/in/jack-mckew/)
 * GitHub: [@JackMcKew](https://github.com/JackMcKew)
 
+Note: Reiterate that the talk is completely open source and links are all live
+
 ---
 
 ## Projects I work on
@@ -41,6 +47,8 @@ I'm the creator & maintainer of open source packages such as:
     * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
     * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
 
+Note: Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI
+
 ---
 
 ## What are GitHub Actions
@@ -51,11 +59,23 @@ GitHub Actions are free-to-use, plug & play blocks of continuous integration / c
 
 ---
 
+## But what is CI/CD?
+
+CI = Automated Build, Package, Test
+
+CD = Automated Delivery
+
+Note: We want to run these things every time we push to our Github Repo
+
+---
+
 ## GitHub Action Marketplace
 
 Find pre-made blocks of CI/CD to plug & play!
 
 > <https://github.com/marketplace?type=actions>
+
+Note: These are thousands of pre-made actions ready to use
 
 ---
 
