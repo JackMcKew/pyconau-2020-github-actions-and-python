@@ -32,7 +32,9 @@ This talk is open source & built with GitHub Actions at: <https://github.com/Jac
 </aside></script></section><section  data-markdown><script type="text/template">
 ## Who am I
 
-I'm Jack McKew, I absolutely love solving problems, especially with Python! 🐍
+I'm Jack McKew, I'm a software engineer at [Deckee](deckee.com/)
+
+I absolutely love solving problems, especially with Python! 🐍
 
 I write a weekly blog on software, technology and more over at [jackmckew.dev](https://jackmckew.dev/).
 
@@ -55,8 +57,12 @@ I'm the creator & maintainer of open source packages such as:
     * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
     * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
 
-<aside class="notes"><p>Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI</p>
+<aside class="notes"><p>Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI. Show pandas_alive readme page after slide.</p>
 </aside></script></section><section  data-markdown><script type="text/template">
+## The Workflow
+
+[Workflow](img/workflow.png)
+</script></section><section  data-markdown><script type="text/template">
 ## What are GitHub Actions
 
 GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD).
@@ -103,30 +109,6 @@ And also...
 ## But how do I set them up
 
 All's needed is a `my-action.yml` file in `.github/workflows`
-
-``` yaml
-name: Build & Publish Presentation with reveal-md
-
-on: push
-
-jobs:
-  release:
-    name: Build & Publish
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-
-      - name: Install dependencies & Build Presentation
-        run: |
-          sudo npm install -g reveal-md --unsafe-perm
-          sudo reveal-md Presentation.md --static _site --highlight-theme github
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: _site # The folder the action should deploy.
-```
 </script></section><section  data-markdown><script type="text/template">
 ``` yaml
 name: Build & Publish Presentation with reveal-md
@@ -162,6 +144,31 @@ jobs:
           FOLDER: _site # The folder the action should deploy.
 ```
 <!-- .element: class="fragment" data-fragment-index="4" -->
+</script></section><section  data-markdown><script type="text/template">
+``` yaml
+name: Build & Publish Presentation with reveal-md
+
+on: push
+
+jobs:
+  release:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies & Build Presentation
+        run: |
+          sudo npm install -g reveal-md --unsafe-perm
+          sudo reveal-md Presentation.md --static _site --highlight-theme github
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+```
+
 </script></section><section  data-markdown><script type="text/template">
 ## GitHub Actions in Action
 
