@@ -22,7 +22,9 @@ Note: Mention that the presentation is live on the web and hosted on github page
 
 ## Who am I
 
-I'm Jack McKew, I absolutely love solving problems, especially with Python! 🐍
+I'm Jack McKew, I'm a software engineer at [Deckee](deckee.com/)
+
+I absolutely love solving problems, especially with Python! 🐍
 
 I write a weekly blog on software, technology and more over at [jackmckew.dev](https://jackmckew.dev/).
 
@@ -47,7 +49,13 @@ I'm the creator & maintainer of open source packages such as:
     * [pyinstaller-action-linux](https://github.com/JackMcKew/pyinstaller-action-linux)
     * [python-interrogate-check](https://github.com/JackMcKew/python-interrogate-check)
 
-Note: Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI
+Note: Mention github actions are used in all of these projects and more. Pandas alive almost has 20k downloads off PyPI. Show pandas_alive readme page after slide.
+
+---
+
+## The Workflow
+
+[Workflow](img/workflow.png)
 
 ---
 
@@ -110,30 +118,6 @@ And also...
 
 All's needed is a `my-action.yml` file in `.github/workflows`
 
-``` yaml
-name: Build & Publish Presentation with reveal-md
-
-on: push
-
-jobs:
-  release:
-    name: Build & Publish
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-
-      - name: Install dependencies & Build Presentation
-        run: |
-          sudo npm install -g reveal-md --unsafe-perm
-          sudo reveal-md Presentation.md --static _site --highlight-theme github
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: _site # The folder the action should deploy.
-```
-
 ---
 
 ``` yaml
@@ -170,6 +154,33 @@ jobs:
           FOLDER: _site # The folder the action should deploy.
 ```
 <!-- .element: class="fragment" data-fragment-index="4" -->
+
+---
+
+``` yaml
+name: Build & Publish Presentation with reveal-md
+
+on: push
+
+jobs:
+  release:
+    name: Build & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies & Build Presentation
+        run: |
+          sudo npm install -g reveal-md --unsafe-perm
+          sudo reveal-md Presentation.md --static _site --highlight-theme github
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: _site # The folder the action should deploy.
+```
+
 
 ---
 
