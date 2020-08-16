@@ -55,7 +55,7 @@ Note: Mention github actions are used in all of these projects and more. Pandas 
 
 ## The Workflow
 
-[Workflow](img/workflow.png)
+![Workflow](img/workflow.png)
 
 ---
 
@@ -186,8 +186,7 @@ jobs:
 
 ## GitHub Actions in Action
 
-> Let's do a live demo updating this presentation! 🐍🐍🐍🐍🐍🐍
-
+> Let's do a live demo updating this presentation!
 ---
 
 ## But where's the Python? 🐍
