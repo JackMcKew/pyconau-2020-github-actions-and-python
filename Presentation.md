@@ -57,6 +57,7 @@ Note: Mention github actions are used in all of these projects and more. Pandas 
 <!-- .slide: data-background="./img/workflow.png" -->
 
 ## The Workflow
+
 ---
 
 ## What are GitHub Actions
@@ -209,6 +210,25 @@ jobs:
         jupyter nbconvert --to markdown README.ipynb
 ```
 <!-- .element: class="fragment" data-fragment-index="2" -->
+
+---
+
+## Can I make my own actions?
+
+Yes!
+
+---
+
+## How?
+
+Currently GitHub actions are built either using:
+
+* Docker
+* Javascript
+
+---
+
+## Let's Dive into Actions on Projects I maintain
 
 ---
 
