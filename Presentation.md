@@ -53,15 +53,15 @@ Note: Mention github actions are used in all of these projects and more. Pandas 
 
 ---
 
+
+<!-- .slide: data-background="./img/workflow.png" -->
+
 ## The Workflow
-
-![Workflow](img/workflow.png)
-
 ---
 
 ## What are GitHub Actions
 
-GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD).
+GitHub Actions are free-to-use, plug & play blocks of continuous integration / continuous delivery (CI/CD). Unlimited run time for public repositories and paid for private.
 
 > CI/CD allows us to automate building, testing and deployment of applications.
 
