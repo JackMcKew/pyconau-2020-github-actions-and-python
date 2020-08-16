@@ -175,7 +175,7 @@ jobs:
 
 ## GitHub Actions in Action
 
-> Let's do a live demo updating this presentation!
+> Let's do a live demo updating this presentation! 🐍🐍🐍🐍🐍🐍
 
 ---
 
