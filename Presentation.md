@@ -55,7 +55,7 @@ Note: Mention github actions are used in all of these projects and more. Pandas 
 
 ## The Workflow
 
-<img src="img/workflow.png.jpg" alt="drawing" width="200"/>
+<img src="img/workflow.png" alt="drawing" style="scale:2"/>
 
 ---
 
