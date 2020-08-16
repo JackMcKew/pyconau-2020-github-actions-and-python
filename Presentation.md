@@ -53,10 +53,9 @@ Note: Mention github actions are used in all of these projects and more. Pandas 
 
 ---
 
-
-<!-- .slide: data-background="./img/workflow.png" -->
-
 ## The Workflow
+
+<img src="img/workflow.png.jpg" alt="drawing" width="200"/>
 
 ---
 
