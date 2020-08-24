@@ -1,0 +1,12 @@
+name: Hello PyConAU 2020!
+
+on: push
+
+jobs:
+  python-time:
+    name: Curlybois
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show us the Curlybois!!
+        run: |
+          echo "Hello PyConAU 2020 🐍🐍🐍"
