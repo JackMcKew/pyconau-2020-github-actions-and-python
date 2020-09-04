@@ -22,7 +22,7 @@ Note: Mention that the presentation is live on the web and hosted on github page
 
 ## Who am I
 
-I'm Jack McKew, I'm a software engineer at [Deckee](deckee.com/)
+I'm Jack McKew, I'm a senior software engineer at [Deckee](deckee.com/)
 
 I absolutely love solving problems, especially with Python! 🐍
 
