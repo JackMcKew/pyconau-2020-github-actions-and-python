@@ -186,7 +186,7 @@ jobs:
 
 ## GitHub Actions in Action
 
-Show curlybois here -->
+Show curlybois here --> 🐍🐍🐍
 
 > Let's do a live demo updating this presentation! 
 ---
